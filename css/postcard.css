@@ -5,6 +5,7 @@
     align-items: center;
     width: 650px;
     padding: 15px;
+    margin: 0 auto;
     border: 1px solid #000;
     background: url( '../assets/contact/parchment-texture.jpg' ) no-repeat center;
     background-size: cover;
