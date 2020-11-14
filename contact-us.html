@@ -1,98 +1,49 @@
 <link rel="stylesheet" href="css/postcard.css">
+<style>@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');</style>
+<script src="postcard.js"></script>
 
-<div class="postcard">
-    <div class="stamp">
-        <div class="cost">
-            &#162;45
+<body class="post-body">
+    <div class="post-header">
+        <p class="reroute">
+            Welcome to the Contact Us page. If you have questions about how to use our product, please visit the 
+            <a href="products.html">Products Offered</a> page of our website. If you have questions about booking 
+            recommended activities, please visit the <a href="booking.html">Booking</a> page of our website. For 
+            any other questions or concerns, please use the form below to leave your name, subject of your message, 
+            and your message. Hit 'Send' to send your message to one of our team members. You can expect to hear 
+            back from us within 1-2 business days. You may also call us Monday-Friday, 8am-5pm using our phone 
+            number: 1-800-933-2574. 
+        </p>
+    </div>
+
+    <div class="postcard">
+        <div class="stamp">
+            <div class="cost">
+                &#162;45
+            </div>
         </div>
+        <div class="title">
+            Postcard
+        </div>
+        <form method="GET" action="contact-us.html">
+            <label>
+                Name:
+                <input type="text" name="fullname">
+            </label>
+            <label>
+                Subject:
+                <input type="text" name="subject">
+            </label>
+            <label for="message-1">Message:</label>
+            <textarea id="message-1" name="message"></textarea>
+            <button type="button" onclick="fakeSend();">Send</button>
+        </form>
+        <div class="address">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="footer"></div>
     </div>
-    <div class="title">
-        Postcard
-    </div>
-    <form method="GET" action="contact-us.html">
-        <label>
-            Name:
-            <input type="text" name="fullname">
-        </label>
-        <label>
-            Subject:
-            <input type="text" name="subject">
-        </label>
-        <label for="message-1">Message:</label>
-        <textarea id="message-1" name="message"></textarea>
-        <!-- <input type="submit" value="Mail"> -->
-        <button type="button" onclick="fakeSend();">Mail</button>
-    </form>
-    <div class="address">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-    </div>
-    <div class="footer"></div>
-</div>
-
-<script>
-    /**
- * Fake send a form by changing the submit button to a button
- * with an on click event that calls this function.
- */
-function fakeSend() {
-
-// Stop the form from actually submitting if you used a submit button.
-event.preventDefault();
-
-// Grab the button element the user clicked on.
-var elem = event.target || event.srcElement;
-
-/**
- * Create a new HTML div virtually, add our class
- * to it, and then add the message.
- */
-var msg  = document.createElement( 'DIV' );
-msg.classList.add( 'fake-send-msg' );
-msg.innerHTML = 'Your message was successfully sent.'
-
-/**
- * Climb up the DOM to the buttons parent and then
- * add our new div to this parent container.
- */
-elem.parentElement.appendChild( msg );
-
-/**
- * Starting from the button climb the DOM until you
- * reach the form and reset (wipe) it.
- */
-var form = elem.closest( 'form' );
-form.reset();
-}
-
-/**
-* This is what is known as a JavaScript polyfill. It is JavaScript code that
-* adds support to older web browsers for newer JavaScript features. Not every
-* new feature can be polyfilled and not every polyfill supports every browser.
-* This polyfill will only support web browsers that have full ES5 support;
-* the last generation of JavaScript, as of this writing ES6 is the latest
-* version of JavaScript.
-* 
-* The following code was copied from:
-* https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
-*/
-if ( ! Element.prototype.matches ) {
-Element.prototype.matches =
-Element.prototype.msMatchesSelector || 
-Element.prototype.webkitMatchesSelector;
-}
-
-if ( ! Element.prototype.closest ) {
-Element.prototype.closest = function(s) {
-    var el = this;
-    do {
-        if ( Element.prototype.matches.call(el, s) ) return el;
-        el = el.parentElement || el.parentNode;
-    } while ( el !== null && el.nodeType === 1 );
-    return null;
-};
-}
-</script>
+</body>
