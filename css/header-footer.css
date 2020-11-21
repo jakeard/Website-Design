@@ -6,11 +6,21 @@ body header {
     border-bottom: 1px solid #000000;
     padding: 15px;
     background-color: #ab524a;
+    font-family: 'PT Serif', serif;
   }
   #logo {
     width: 150px;
     height: 100px;
 }
+  .name-company {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 15px;
+    vertical-align: top;
+    color: #ffffff;
+  }
   body header nav {
     flex: 1;
     text-align: right;
