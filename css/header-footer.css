@@ -1,63 +1,69 @@
 
 body header {
-    display: flex;
-    flex-direction: row;
-    font-size: 1.15rem;
-    border-bottom: 1px solid #000000;
-    padding: 15px;
-    background-color: #ab524a;
-    font-family: 'PT Serif', serif;
-  }
-  #logo {
-    width: 150px;
-    height: 100px;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.15rem;
+  border-bottom: 1px solid #000000;
+  padding: 15px;
+  background-color: #ab524a;
+  font-family: 'PT Serif', serif;
 }
-  .name-company {
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 25px;
-    margin-left: 15px;
-    vertical-align: top;
-    color: #ffffff;
-  }
-  body header nav {
-    flex: 1;
-    text-align: right;
-  }
-  body header nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-  body header nav ul li {
-    display: inline-block;
-    padding: 7.5px;
-    margin-right: 7.5px;
-  }
-  body footer {
-    display: flex;
-    flex-direction: row;
-    font-size: 1.15rem;
-    border-top: 1px solid #000000;
-    padding: 15px;
-    background-color: #727b16;
-    color: #ffffff;
-  }
-  body footer #legal {
-    flex: 1;
-  }
-  body footer nav {
-    flex: 1;
-    text-align: right;
-  }
-  body footer nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-  body footer nav ul li {
-    display: inline-block;
-    padding: 7.5px;
-    margin-right: 7.5px;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+#logo {
+  width: 150px;
+  height: 100px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+.name-company {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-left: 15px;
+  vertical-align: top;
+  color: #ffffff;
+}
+body header nav {
+  flex: 1;
+  text-align: right;
+}
+body header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body header nav ul li {
+  display: inline-block;
+  padding: 7.5px;
+  margin-right: 7.5px;
+}
+body footer {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.15rem;
+  border-top: 1px solid #000000;
+  padding: 15px;
+  background-color: #727b16;
+  color: #ffffff;
+}
+body footer #legal {
+  flex: 1;
+}
+body footer nav {
+  flex: 1;
+  text-align: right;
+}
+body footer nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body footer nav ul li {
+  display: inline-block;
+  padding: 7.5px;
+  margin-right: 7.5px;
+}
