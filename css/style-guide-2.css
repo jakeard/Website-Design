@@ -1,0 +1,89 @@
+.light-design .primary-color-1 {
+    background-color: #f2dcbf;
+}
+
+.light-design .primary-color-2 {
+    background-color: #ab524a;
+}
+
+.light-design .primary-color-3 {
+    background-color: #455612;
+}
+
+.light-design .accent-color-1 {
+    background-color: #643e33;
+}
+
+.light-design .accent-color-2 {
+    background-color: #4AA3AB;
+}
+
+.light-design .accent-color-3 {
+    background-color: #d09549;
+}
+
+.light-design .font-color-1 {
+    background-color: #000000;
+}
+
+.light-design .font-color-2 {
+    background-color: #ffffff;
+}
+
+.light-design .logo-outer {
+    background-color: #643e33;
+}
+
+.light-design .logo-inner {
+    background-color: #4AA3AB;
+}
+
+.light-design header {
+    background-color: #ab524a;
+    color: #ffffff;
+}
+
+.light-design footer {
+    background-color: #727b16;
+    color: #ffffff;
+}
+
+.light-design .img-1 {
+    border-color: #d09549;
+}
+
+.light-design .img-2 {
+    border-color: #4AA3AB;
+}
+
+.light-design .img-3 {
+    border-color: #643e33;
+}
+
+.light-design .img-4 {
+    border-color: #643e33;
+}
+
+.light-design .img-5 {
+    border-color: #4AA3AB;
+}
+
+.light-design .img-6 {
+    border-color: #d09549;
+}
+
+.light-design a {
+    color: #643e33;
+}
+
+.light-design {
+    font-family: 'PT Serif', serif;
+}
+
+.light-design h1, .light-design h2, .light-design h3, .light-design h4, .light-design h5, .light-design h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.light-design {
+    background-color: #f2dcbf;
+}

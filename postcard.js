@@ -16,7 +16,7 @@ function fakeSend() {
      */
     var msg  = document.createElement( 'DIV' );
     msg.classList.add( 'fake-send-msg' );
-    msg.innerHTML = 'Your message was successfully sent.'
+    msg.innerHTML = 'Your message was sent successfully.'
     
     /**
      * Climb up the DOM to the buttons parent and then
