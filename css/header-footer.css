@@ -1,22 +1,31 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  text-rendering: optimizeLegibility;
-}
-body {
-  display: flex;
-  flex-direction: column;
-  font-size: 62.5%;
-}
+
 body header {
   display: flex;
   flex-direction: row;
   font-size: 1.15rem;
   border-bottom: 1px solid #000000;
   padding: 15px;
+  background-color: #ab524a;
+  font-family: 'PT Serif', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+#logo {
+  width: 150px;
+  height: 100px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+.name-company {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-left: 15px;
+  vertical-align: top;
+  color: #ffffff;
 }
 body header nav {
   flex: 1;
@@ -32,20 +41,14 @@ body header nav ul li {
   padding: 7.5px;
   margin-right: 7.5px;
 }
-body main {
-  font-size: 1.15rem;
-  flex: 1;
-  padding: 15px;
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-}
 body footer {
   display: flex;
   flex-direction: row;
   font-size: 1.15rem;
   border-top: 1px solid #000000;
   padding: 15px;
+  background-color: #727b16;
+  color: #ffffff;
 }
 body footer #legal {
   flex: 1;
