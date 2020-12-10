@@ -1,4 +1,6 @@
-
+body {
+  margin: 0;
+}
 body header {
   display: flex;
   flex-direction: row;

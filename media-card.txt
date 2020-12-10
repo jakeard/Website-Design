@@ -1,0 +1,15 @@
+<article class="card">
+    <div class="content-img">
+        <img src="assets/media cards/rome.jpg" alt="rome">
+    </div>
+    <div class="content-text">
+        Book a tour of the ancient and gorgeous city of Rome, Italy. Spend time seeing, tasting, feeling, and living your dreams today.  
+    </div>
+    <div class="content-footer">
+        <div class="buttons">
+            <button type="button", class="viewButton">View</button>
+            <button type="button", class="editButton">Edit</button>
+        </div>
+        <span class="info">$134</span>
+    </div>
+</article>
