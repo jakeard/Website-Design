@@ -27,7 +27,8 @@ main {
 
 .headline1 {
     padding: 5px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #4AA3AB;
+    color: #4AA3AB;
 }
 
 .part2 {
@@ -38,7 +39,8 @@ main {
 
 .headline2 {
     padding: 5px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d09549;
+    color: #d09549;
 }
 
 .media-card1 {

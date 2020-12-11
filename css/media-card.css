@@ -1,4 +1,4 @@
-.card {
+.card1, .card2, .card3, .card4, .card5, .card6 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr auto;
