@@ -1,14 +1,18 @@
 
+body {
+    display: block;
+    margin: 0;
+}
 .post-body {
     background-color: #f2dcbf;
     font-family: 'PT Serif', serif;
+    height: 570px;
 }
 
 .reroute {
     font-size: 1.1rem;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 75px;
+    padding: 10px 10px 0 10px;
+    margin: 0;
 }
 
 .postcard {
@@ -18,7 +22,7 @@
     align-items: center;
     width: 650px;
     padding: 15px;
-    margin: 0 auto;
+    margin: 25px auto;
     border: 1px solid #000;
     background: url( '../assets/contact/parchment-texture.jpg' ) no-repeat center;
     background-size: cover;
