@@ -1,0 +1,51 @@
+body {
+    display: block;
+    margin: 0;
+}
+
+main {
+    background-color: #f2dcbf;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.home {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 15px 20px 45px 15px;
+}
+
+.headline-home {
+    border-bottom: 1px solid black;
+}
+
+.products {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 15px 15px 45px 20px;
+}
+
+.headline-products {
+    border-bottom: 1px solid black;
+}
+
+.booking {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 45px 15px 15px 20px;
+}
+
+.headline-booking {
+    border-bottom: 1px solid black;
+}
+
+.contact-us {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 45px 20px 15px 15px;
+}
+
+.headline-contact {
+    border-bottom: 1px solid black;
+}
